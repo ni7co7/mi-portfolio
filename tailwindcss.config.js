@@ -19,6 +19,7 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         heading: ["Poppins", "sans-serif"],
+        custom: ['var(--font-custom)'],
       },
       backgroundImage: {
         'gradient-main': "linear-gradient(to right, #4F46E5, #9333EA, #EC4899)",
