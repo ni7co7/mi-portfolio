@@ -1,3 +1,5 @@
+'use client';
+import { useLanguage } from '@/context/LanguageContext';
 import {
   FaGitAlt,
   FaGithub,
@@ -9,12 +11,12 @@ import {
   FaDatabase,
 } from "react-icons/fa";
 import { SiExpress, SiSequelize } from "react-icons/si";
-
 export default function Technologies() {
+  const { t } = useLanguage();
   return (
-    <section className="py-20 bg-gray-50" id="technologies">
-      <div className="container mx-auto px-6">
-        <h2 className="text-9xl font-bold mb-16">Technologies</h2>
+    <section className="py-20 bg-gray-50 " id="technologies">
+      <div className="p-36 container mx-auto px-6">
+        <h2 className="text-9xl  mb-22">{t.techTitle}</h2>
 
         <div className="grid md:grid-cols-3 gap-10">
           {/* General Tech */}

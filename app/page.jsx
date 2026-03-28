@@ -1,14 +1,24 @@
+'use client';
+import { useLanguage } from '../context/LanguageContext';
 import Proyects from "./proyects/page"; 
 import Technologies from "./technologies/page";
 import AboutPage from "./about/page";
 import Footer from "./footer/footer";
 
 export default function HomePage(){
+    const { t, cambiarIdioma, idioma } = useLanguage();
     return (
         <div className="p-56">
-            <h1 className="text-9xl">Welcome to my personal portfolio</h1>
+
+            <button 
+                onClick={cambiarIdioma}
+                className="mb-10 p-2 border border-violet-500 rounded text-violet-500 hover:bg-violet-50"
+            >
+                {idioma === 'en' ? 'Pasar a Castellano' : 'Switch to English'}
+            </button>
+            <h1 className="text-9xl">{t.welcome }</h1>
             <p className="text-slate-500 p-24 text-5xl">
-                My name is Nicolás Gianfelici Mornacco. I´m a Software Developer and Systems Analyst.
+                {t.description}
             </p>
             
             <a
@@ -17,7 +27,7 @@ export default function HomePage(){
                 rel="noopener noreferrer"
                 className="border-2 border-violet-500 bg-white text-violet-500 px-6 py-3 text-lg rounded-lg font-semibold hover:bg-violet-500 hover:text-white transition duration-300 inline-block"
             >
-                Resume
+                {t.resumeBtn}
             </a>
 
             <Proyects/>
