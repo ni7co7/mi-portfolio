@@ -117,6 +117,58 @@ export default function Proyects() {
               </a>
             </div>
           </div>
+
+          {/* Card 5 */}
+        
+
+
+             
+             
+             
+             
+             
+
+           
+
+
+           {/* Card 3 */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+            <div className="w-full h-150 overflow-hidden">
+             
+             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7443802344120610816?collapsed=1" 
+             height="779"
+              width="504" 
+              frameborder="0" 
+              allowfullscreen="" 
+              title="Publicación integrada">
+             </iframe>
+             
+             
+             
+             
+            </div>
+            <div className="p-6 flex flex-col flex-grow">
+              <h3 className="text-slate-500 text-5xl font-semibold mb-2">Estanterías Comerciales</h3>
+              <p className="text-2xl text-gray-600 mb-4">
+                  An app Store + Crud / SQL. Develop in Android Studio. Comercial Industries and Office Shelving business.
+                  Implementes radio buttons for select type of material and text inputs for dimension. Calculates prices automatically. Data base manage information of clients, products stock, pay methods and orders.
+              </p>
+              <a
+                href="https://moviledoctor.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-violet-500 bg-white text-violet-500 px-4 py-2 rounded-lg font-semibold hover:bg-violet-500 hover:text-white transition duration-300 mt-auto"
+              >
+                See
+              </a>
+            </div>
+          </div>
+         
+
+
+
+
+
           
         </div>
       </div>
