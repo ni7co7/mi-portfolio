@@ -3,7 +3,9 @@ export const textos = {
     en: {
         welcome: "Welcome to my personal portfolio",
         description: "My name is Nicolás Gianfelici Mornacco. I´m a Software Developer and Systems Analyst.",
-        resumeBtn: "Resume",
+        resumeBtn: "Resume English",
+        resumeBtn2: "CV Español",
+
         // Nuevas secciones
         nav: { home: "Home", projects: "Projects", tech: "Technologies", about: "About Me" },
         projectsTitle: "My Projects",

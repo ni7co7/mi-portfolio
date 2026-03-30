@@ -2,11 +2,17 @@ import Navbar from "../components/Navbar";
 import { LanguageProvider } from '../context/LanguageContext';
 import "./global.css";
 
+
+
+
+
+
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
-                <title>My App</title>
+                <title>LoboDev</title>
             </head>
             <body>
                 <LanguageProvider>
