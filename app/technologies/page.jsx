@@ -16,7 +16,7 @@ export default function Technologies() {
   return (
     <section className="py-20 bg-gray-50 " id="technologies">
       <div className="p-36 container mx-auto px-6">
-        <h2 className="text-9xl  mb-22">{t.techTitle}</h2>
+        <h2 className="text-9xl   mb-16 pb-10 ">{t.techTitle}</h2>
 
         <div className="grid md:grid-cols-3 gap-10">
           {/* General Tech */}

@@ -6,7 +6,7 @@ export default function Proyects() {
   return (
     <section className="py-20 bg-gray-50" id="projects">
       <div className="container mx-auto px-6">
-        <h2 className="text-9xl  mb-16">{t.projectsTitle}</h2>
+        <h2 className="text-9xl  m-16 p-10">{t.projectsTitle}</h2>
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Card 1 con iframe */}

@@ -16,7 +16,7 @@ export default function HomePage(){
             >
                 {idioma === 'en' ? 'Pasar a Castellano' : 'Switch to English'}
             </button>
-            <h1 className="text-9xl text-left">{t.welcome }</h1>
+            <h1 className="text-9xl text-left p-10 m-10">{t.welcome }</h1>
             <p className="text-slate-500 p-24 text-5xl">
                 {t.description}
             </p>
