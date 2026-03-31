@@ -8,7 +8,7 @@ import Footer from "./footer/footer";
 export default function HomePage(){
     const { t, cambiarIdioma, idioma } = useLanguage();
     return (
-        <div className="p-56">
+        <div className="container mx-auto px-6 p-10 text-center">
 
             <button 
                 onClick={cambiarIdioma}
@@ -16,7 +16,7 @@ export default function HomePage(){
             >
                 {idioma === 'en' ? 'Pasar a Castellano' : 'Switch to English'}
             </button>
-            <h1 className="text-9xl">{t.welcome }</h1>
+            <h1 className="text-9xl text-left">{t.welcome }</h1>
             <p className="text-slate-500 p-24 text-5xl">
                 {t.description}
             </p>
