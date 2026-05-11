@@ -4,11 +4,11 @@ export default function Proyects() {
 
   const { t } = useLanguage();
   return (
-    <section className="py-20 bg-gray-50" id="projects">
-      <div className="container mx-auto px-6">
-        <h2 className="text-9xl  m-16 p-10">{t.projectsTitle}</h2>
+    <section className="container mx-auto px-4 md:px-12 lg:px-32 py-10 text-center" id="projects">
+      <div className="container mx-auto px-">
+        <h2 className="text-4xl md:text-7xl lg:text-9xl text-center md:text-left font-bold leading-tight">{t.projectsTitle}</h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-20">
           {/* Card 1 con iframe */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
             <div className="w-full h-150 overflow-hidden">
@@ -21,8 +21,8 @@ export default function Proyects() {
               ></iframe>
             </div>
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-slate-500 text-5xl font-semibold mb-2">MG Studio</h3>
-              <p className="text-2xl text-gray-600 mb-4">
+              <h3 className=" text-4xl md:text-7xl lg:text-9xl text-slate-500  font-semibold mb-2">MG Studio</h3>
+              <p className="text-4xl md:text-7xl lg:text-4xl text-gray-600 mb-4">
                 A personal website developed with React.js and Bulma, optimized for SEO.
               </p>
               <a
@@ -48,8 +48,8 @@ export default function Proyects() {
               ></iframe>
             </div>
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-slate-500 text-5xl font-semibold mb-2">E-commerce</h3>
-              <p className="text-2xl text-gray-600 mb-4">
+              <h3 className="text-slate-500 text-4xl md:text-7xl lg:text-9xlfont-semibold mb-2">E-commerce</h3>
+              <p className="text-4xl md:text-7xl lg:text-4xl  text-gray-600 mb-4">
                 Online store built with React and Firebase, featuring a cart and authentication.
               </p>
               <a
@@ -75,8 +75,8 @@ export default function Proyects() {
               ></iframe>
             </div>
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-slate-500 text-5xl font-semibold mb-2">Techno Precios</h3>
-              <p className="text-2xl text-gray-600 mb-4">
+              <h3 className="text-slate-500 text-4xl md:text-7xl lg:text-9xlfont-semibold mb-2">Techno Precios</h3>
+              <p className=" text-4xl md:text-7xl lg:text-4xl  text-gray-600 mb-4">
                 Online Tech store built with Html, Css and JavaScript. Implementes two modals for search and filter products and services using JASON data base.
 
               </p>
@@ -103,8 +103,8 @@ export default function Proyects() {
               ></iframe>
             </div>
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-slate-500 text-5xl font-semibold mb-2">El Blog Del Piano</h3>
-              <p className="text-2xl text-gray-600 mb-4">
+              <h3 className="text-slate-500 text-4xl md:text-7xl lg:text-9xl font-semibold mb-2">El Blog Del Piano</h3>
+              <p className="text-4xl md:text-7xl lg:text-4xl text-gray-600 mb-4">
                Html and Css Blog Page for Piano Lessons.
               </p>
               <a
@@ -148,8 +148,8 @@ export default function Proyects() {
              
             </div>
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-slate-500 text-5xl font-semibold mb-2">Estanterías Comerciales</h3>
-              <p className="text-2xl text-gray-600 mb-4">
+              <h3 className="text-slate-500 text-4xl md:text-7xl lg:text-4xl font-semibold mb-2">Estanterías Comerciales</h3>
+              <p className=" text-4xl md:text-7xl lg:text-4xl text-gray-600 mb-4">
                   An app Store + Crud / SQL. Develop in Android Studio. Comercial Industries and Office Shelving business.
                   Implementes radio buttons for select type of material and text inputs for dimension. Calculates prices automatically. Data base manage information of clients, products stock, pay methods and orders.
               </p>
@@ -181,8 +181,8 @@ export default function Proyects() {
              
             </div>
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-slate-500 text-5xl font-semibold mb-2">Apuntador de Acordes</h3>
-              <p className="text-2xl text-gray-600 mb-4">
+              <h3 className="text-slate-500 text-4xl md:text-7xl lg:text-4xl font-semibold mb-2">Apuntador de Acordes</h3>
+              <p className=" text-4xl md:text-7xl lg:text-4xl text-gray-600 mb-4">
                   App for practicing piano chords. Develop in Android Studio. You can record any chord and save those armonics sequences you are looking for. 
               </p>
               <a
@@ -204,8 +204,8 @@ export default function Proyects() {
              <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7444147612879974400?collapsed=1" height="442" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>
             </div>
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-slate-500 text-5xl font-semibold mb-2">IAT</h3>
-              <p className="text-2xl text-gray-600 mb-4">
+              <h3 className="text-slate-500 text-4xl md:text-7xl lg:text-9xlfont-semibold mb-2">IAT</h3>
+              <p className="text-4xl md:text-7xl lg:text-4xl text-gray-600 mb-4">
                   Desktop App. Implicit Association Test. Develop whith pure Js. You can create your own test with your own categories and stimuli. It calculates the average response time for each category and shows the results in a table.  
               </p>
               <a

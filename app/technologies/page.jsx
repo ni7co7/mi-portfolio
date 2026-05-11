@@ -14,9 +14,9 @@ import { SiExpress, SiSequelize } from "react-icons/si";
 export default function Technologies() {
   const { t } = useLanguage();
   return (
-    <section className="py-20 bg-gray-50 " id="technologies">
-      <div className="p-36 container mx-auto px-6">
-        <h2 className="text-9xl   mb-16 pb-10 ">{t.techTitle}</h2>
+    <section className="container mx-auto px-4 md:px-12 lg:px-32 py-10 text-center  bg-gray-50 " id="technologies">
+      <div className="text-4xl md:text-7xl lg:text-9xl text-center md:text-left font-bold leading-tight  ">
+        <h2 className="text-4xl md:text-7xl lg:text-9xl ">{t.techTitle}</h2>
 
         <div className="grid md:grid-cols-3 gap-10">
           {/* General Tech */}
@@ -27,7 +27,7 @@ export default function Technologies() {
               <FaGithub title="GitHub" />
               <FaMicrosoft title="Azure DevOps" />
             </div>
-            <p className="text-gray-700">
+            <p className="  text-4xl md:text-7xl lg:text-4xl text-gray-700">
               Git, GitHub y Azure DevOps para control de versiones y CI/CD.
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function Technologies() {
               <FaVuejs title="Vue.js" />
               <FaReact title="React" />
             </div>
-            <p className="text-gray-700">
+            <p className=" text-4xl md:text-7xl lg:text-4xl text-gray-700">
               JavaScript, Vue.js y React para construir interfaces dinámicas y modernas.
             </p>
           </div>
@@ -53,7 +53,7 @@ export default function Technologies() {
               <SiExpress title="Express" />
               <SiSequelize title="Sequelize" />
             </div>
-            <p className="text-gray-700">
+            <p className=" text-4xl md:text-7xl lg:text-4xl text-gray-700">
               Node.js, Express y Sequelize para crear APIs robustas y eficientes.
             </p>
           </div>

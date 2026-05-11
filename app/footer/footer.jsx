@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { myCustomFont } from '@/app/fontSquare';
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-200 m-8 py-8 px-6">
+    <footer className="bg-gray-900 text-gray-200 container mx-auto px-4 md:px-12 lg:px-32 py-10 text-center">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
         
         {/* Contact info */}
